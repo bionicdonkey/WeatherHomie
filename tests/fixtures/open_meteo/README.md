@@ -1,0 +1,1 @@
+Synthetic replies in the shape of Open-Meteo's /v1/forecast (unixtime, m/s). The numbers are invented: a convective afternoon with CAPE peaking near 2600 J/kg and a strong westerly 500 hPa wind over an easterly surface wind (shear 21 m/s).

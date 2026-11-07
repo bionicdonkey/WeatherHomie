@@ -1,0 +1,37 @@
+{
+  "common_list": [
+    {"id": "0x02", "val": "79.2", "unit": "F"},
+    {"id": "0x07", "val": "65%"},
+    {"id": "3", "val": "79.2", "unit": "F"},
+    {"id": "0x03", "val": "66.4", "unit": "F", "battery": "0"},
+    {"id": "0x04", "val": "79.2", "unit": "F"},
+    {"id": "0x0B", "val": "0.00 mph"},
+    {"id": "0x0C", "val": "1.12 mph"},
+    {"id": "0x19", "val": "1.34 mph"},
+    {"id": "0x15", "val": "0.00 w/m2"},
+    {"id": "0x17", "val": "0"},
+    {"id": "0x0A", "val": "37", "battery": "5"}
+  ],
+  "rain": [
+    {"id": "0x0D", "val": "0.00 in"},
+    {"id": "0x0E", "val": "0.50 in/Hr"},
+    {"id": "0x10", "val": "1.00 in"},
+    {"id": "0x11", "val": "2.00 in"},
+    {"id": "0x12", "val": "3.00 in"},
+    {"id": "0x13", "val": "40.00 in", "battery": "0"}
+  ],
+  "piezoRain": [
+    {"id": "0x0D", "val": "0.00 in"},
+    {"id": "0x0E", "val": "0.10 in/Hr"},
+    {"id": "0x10", "val": "0.20 in"}
+  ],
+  "wh25": [{"intemp": "81.0", "unit": "F", "inhumi": "62%", "abs": "29.40 inHg", "rel": "29.40 inHg"}],
+  "lightning": [{"distance": "34 km", "date": "2024-11-25T20:41:16", "timestamp": "11/25/2024 20:41:16", "count": "2", "battery": "5"}],
+  "ch_aisle": [
+    {"channel": "1", "name": "", "battery": "0", "temp": "80.2", "unit": "F", "humidity": "None"},
+    {"channel": "2", "name": "", "battery": "0", "temp": "77.9", "unit": "F", "humidity": "64%"}
+  ],
+  "ch_soil": [{"channel": "1", "name": "", "battery": "1", "humidity": "33%"}],
+  "ch_pm25": [{"channel": "1", "PM25": "27.0", "PM25_RealAQI": "82", "PM25_24HAQI": "82", "battery": "6"}],
+  "debug": [{"heap": "91272", "runtime": "3323", "usr_interval": "60", "is_cnip": true}]
+}

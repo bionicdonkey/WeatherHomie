@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Weather Warnings (synthetic test fixture shaped like the BOM feed)</title>
+		<pubDate>Fri, 06 Nov 2026 11:27:29 GMT</pubDate>
+		<ttl>10</ttl>
+		<item>
+			<title>06/16:08 EDT Severe Thunderstorm Warning
+for Sydney, Illawarra and parts of the Hunter</title>
+			<link>http://reg.bom.gov.au/nsw/warnings/thunderstorm.shtml</link>
+			<pubDate>Fri, 06 Nov 2026 05:08:23 GMT</pubDate>
+			<guid isPermaLink="false">http://reg.bom.gov.au/nsw/warnings/thunderstorm.shtml</guid>
+		</item>
+		<item>
+			<title>06/22:00 EDT Marine Wind Warning Summary for New South Wales</title>
+			<link>http://reg.bom.gov.au/nsw/warnings/marinewind.shtml</link>
+			<pubDate>Fri, 06 Nov 2026 11:00:19 GMT</pubDate>
+			<guid isPermaLink="false">http://reg.bom.gov.au/nsw/warnings/marinewind.shtml</guid>
+		</item>
+		<item>
+			<title>06/16:44 EDT Hazardous Surf Warning for New South Wales</title>
+			<link>http://reg.bom.gov.au/nsw/warnings/hazardoussurf.shtml</link>
+			<pubDate>Fri, 06 Nov 2026 05:44:26 GMT</pubDate>
+			<guid isPermaLink="false">http://reg.bom.gov.au/nsw/warnings/hazardoussurf.shtml</guid>
+		</item>
+		<item>
+			<title>06/17:10 EDT Fire Weather Warning
+for Greater Hunter and Upper Central West Plains fire weather districts</title>
+			<link>http://reg.bom.gov.au/nsw/warnings/fire.shtml</link>
+			<pubDate>Fri, 06 Nov 2026 06:10:00 GMT</pubDate>
+			<guid isPermaLink="false">http://reg.bom.gov.au/nsw/warnings/fire.shtml</guid>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,2 @@
+{"observations":[{"stationID":"IDUMMY123","obsTimeUtc":"2026-11-03T09:56:00Z","obsTimeLocal":"2026-11-03 20:56:00","neighborhood":"Dummy","softwareType":"GW1000","country":"AU","solarRadiation":310.5,"lon":151.0,"realtimeFrequency":null,"epoch":1793699760,"lat":-33.0,"uv":3.0,"winddir":225,"humidity":73,"qcStatus":1,
+"metric":{"temp":20.0,"heatIndex":20.0,"dewpt":15.2,"windChill":20.0,"windSpeed":12.6,"windGust":25.56,"pressure":1013.2,"precipRate":5.0,"precipTotal":12.4,"elev":80}}]}

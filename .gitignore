@@ -1,0 +1,35 @@
+.venv/
+.env
+data/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# personal project brief; may contain location/IP details
+PROMPT.md
+
+# real BOM imagery is copyright BOM; keep local only (tests skip when absent)
+tests/fixtures/bom_radar/real/
+tests/fixtures/bom_observations/real/
+tests/fixtures/bom_warnings/real/
+
+# a downloaded backup contains the home location (and, with a passphrase, encrypted secrets)
+stormtracker-backup*.json
+backup-*.json
+*.db
+*.sqlite*
+.env.*
+!.env.example
+.claude/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.DS_Store
+build/
+dist/
+
+# Local AI-assistant instructions
+CLAUDE.md

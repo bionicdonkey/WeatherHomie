@@ -1,0 +1,13 @@
+.venv
+.env
+.env.*
+data
+.git
+.github
+.claude
+.pytest_cache
+tests
+__pycache__
+PROMPT.md
+stormtracker-backup*.json
+docs
