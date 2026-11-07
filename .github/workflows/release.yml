@@ -133,7 +133,7 @@ jobs:
           if [ "$STABLE" = "true" ]; then       # pre-releases never move latest or the minor tag
             tags+=(-t "$IMAGE:${VERSION%.*}" -t "$IMAGE:latest")
           fi
-          mapfile -t refs < <(printf '%s@sha256:%s\n' "$IMAGE" *)
+          refs=(); for d in *; do refs+=("$IMAGE@sha256:$d"); done
           docker buildx imagetools create "${tags[@]}" "${refs[@]}"
           digest=$(docker buildx imagetools inspect "$IMAGE:$VERSION" --format '{{json .Manifest}}' | python3 -c 'import json,sys; print(json.load(sys.stdin)["digest"])')
           echo "digest=$digest" >> "$GITHUB_OUTPUT"
