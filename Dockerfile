@@ -1,5 +1,5 @@
 # Stage 1: build wheels for everything (pySTEPS has no wheels and compiles C extensions, which needs a compiler)
-FROM python:3.12-slim AS build
+FROM python:3.15-slim AS build
 ENV PIP_NO_CACHE_DIR=1
 RUN apt-get update && apt-get install -y --no-install-recommends build-essential \
     && rm -rf /var/lib/apt/lists/*
@@ -9,7 +9,7 @@ COPY src ./src
 RUN pip wheel --wheel-dir /wheels .
 
 # Stage 2: runtime image, no compiler
-FROM python:3.12-slim
+FROM python:3.15-slim
 ARG VERSION=dev
 ARG REVISION=unknown
 ARG SOURCE=
